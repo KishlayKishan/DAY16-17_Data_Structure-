@@ -13,10 +13,10 @@ public class BinarySearchWord {
 	/*
 	 * @Purpose:Binary Search the Word from Word List
 	 * 
-	 * @Param:Kishlay,Karthik,Akshay,Shubham,Suraj,Susobhsan
+	 * @Param:Kishlay,Kishan,Krishna,Mohit,Shubham
 	 */
 	public static void main(String[] args) {
-		String[] arrayElements = { "Kishlay", "Karthik", "Akshay", "Shubham", "Suraj", "Susobhan" };
+		String[] arrayElements = { "Kishlay", "Kishan","Krishna", "Mohit", "Shubham" };
 		Arrays.sort(arrayElements);
 		System.out.println(Arrays.toString(arrayElements));
 		String search = "Suraj";
